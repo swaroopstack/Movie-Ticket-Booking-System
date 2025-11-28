@@ -1,5 +1,10 @@
 # 🎬 CineVerse – Movie Ticket Booking System
 
+<p align="center">
+  <img src="screenshots/home.png" width="750">
+</p>
+
+
 CineVerse is a simple Python + Tkinter application connected with MySQL.  
 It allows users to browse movies, book tickets, and view bookings through a clean dark-themed UI.
 
