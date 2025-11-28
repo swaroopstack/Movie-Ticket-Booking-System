@@ -1,32 +1,84 @@
-# 🎬 CineVerse – Online Movie Ticket Booking System  
-A modern, dark-themed movie ticket booking system built using **Python (Tkinter)** and **MySQL**, designed as a DBMS mini-project.
+# 🎬 CineVerse – Movie Ticket Booking System
+
+CineVerse is a simple Python + Tkinter application connected with MySQL.  
+It allows users to browse movies, book tickets, and view bookings through a clean dark-themed UI.
+
+This is a beginner-friendly DBMS project and easy to run.
 
 ---
 
-## 📌 Project Overview
-CineVerse is a simple and interactive desktop application that allows users to:
-- Browse a list of movies  
-- Book movie tickets  
-- View their latest bookings  
-- View all booking history stored in the database  
+## 📁 How to Add Images
 
-The system follows a clean 3-tier architecture:
-**Tkinter GUI → Python Logic → MySQL Database**
+1. Create a folder named **images** in the project.
+2. Add your character images inside it:
+   - spiderman.png
+   - ironman.png
+3. Make sure the structure looks like this:
 
----
+CineVerse/
+│ movie_dashboard_main.py
+│ config.py
+│ README.md
+└── images/
+      spiderman.png
+      ironman.png
 
-## 🚀 Features
-- 🎞 **Movie Browser** – View all movies with genre, duration & release date.  
-- 🔍 **Search Bar** – Instantly filter movies by title.  
-- 🎟 **Ticket Booking Module** – Select movie, enter name, seats, and confirm booking.  
-- 📋 **View Bookings** – Display all bookings stored in the database.  
-- 🖼 **Cinematic UI** – Iron Man + Spider-Man themed dark interface.  
-- 💾 **Database Integration** – Fully functional backend with MySQL.  
-- ✔️ **Automatic Showtime Creation** – If a movie has no showtime, system creates one automatically.  
+The app will automatically load these images when you open the Home Page.
 
 ---
 
-## 🛠 Technologies Used
-- **Python 3**
-- **Tkinter GUI**
-- **MySQL / MySQL Work**
+## ▶️ How to Run the Project
+
+1. Install required libraries: pip install pillow mysql-connector-python
+
+2. Create the database using MySQL Workbench  
+   (Run the SQL file or copy the SQL setup code from this repo.)
+
+3. Open **config.py** and update your MySQL username and password.
+
+4. Run the application: python movie_dashboard_main.py
+
+
+---
+
+## 🧭 How to Use the Application
+
+### 🏠 Home Page  
+- Shows the main welcome screen with cinematic UI.  
+- Click the card **"Check Movies"** to see the movie list.
+
+### 🎞 Movies Page  
+- Shows all movies stored in the database.  
+- Use the search bar to filter movies by name.
+
+### 🎟 Book Ticket  
+- Select a movie  
+- Enter your name  
+- Enter number of seats  
+- Click **Confirm Booking**  
+- Your latest bookings will appear below.
+
+### 📋 View Bookings  
+- Shows all bookings stored in the database.  
+- Displays movie name, customer, seats, and date.
+
+---
+
+## 👨‍🏫 Credits
+Developed by **Swaroop**, **Abhishek**, and **Kuldeep**  
+as part of our DBMS mini project.
+
+---
+
+## 📌 Notes
+- You can replace Spider-Man and Iron Man images with any PNG you like.  
+- Make sure your images are named correctly and placed inside the **images** folder.  
+- The database must be created before running the app.
+
+
+
+
+
+
+
+
